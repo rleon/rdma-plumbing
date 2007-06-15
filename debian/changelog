@@ -1,8 +1,11 @@
-libibverbs (1.0.5~pre-1) unstable; urgency=low
+libibverbs (1.0.5-1) unstable; urgency=low
 
   * New upstream release.
+    - Initialize state of newly created QPs to RESET (fixes problems
+      with libmlx4/ConnectX HCAs).
+    - Other miscellaneous fixes.
 
- -- Roland Dreier <rolandd@cisco.com>  Wed,  1 Nov 2006 20:55:11 -0800
+ -- Roland Dreier <rolandd@cisco.com>  Fri, 15 Jun 2007 12:54:10 -0700
 
 libibverbs (1.0.4-1) unstable; urgency=low
 
