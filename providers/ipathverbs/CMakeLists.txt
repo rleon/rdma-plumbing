@@ -1,3 +1,7 @@
+rdma_provider(ipathverbs
+  ipathverbs.c
+  verbs.c
+  )
 install(FILES truescale.conf DESTINATION "${CMAKE_INSTALL_SYSCONFDIR}/modprobe.d/")
 install(FILES truescale-serdes.cmds
   DESTINATION "${CMAKE_INSTALL_SBINDIR}"
