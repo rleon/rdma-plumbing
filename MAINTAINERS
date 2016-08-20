@@ -1,0 +1,91 @@
+BUILD SYSTEM
+M:	Jason Gunthorpe <jgunthorpe@obsidianresearch.com>
+S:	Supported
+F:	*/CMakeLists.txt
+F:	buildlib/
+
+CXGB3 USERSPACE PROVIDER (for iw_cxgb3.ko)
+M:	Steve Wise <swise@opengridcomputing.com>
+S:	Supported
+F:	providers/cxgb3/
+
+CXGB4 USERSPACE PROVIDER (for iw_cxgb4.ko)
+M:	Steve Wise <swise@opengridcomputing.com>
+S:	Supported
+F:	providers/cxgb4/
+
+HF1 USERSPACE PROVIDER (for hf1.ko)
+M:	Mike Marciniszyn <mike.marciniszyn@intel.com>
+S:	Supported
+L:	intel-opa@lists.01.org
+F:	providers/hfi1verbs/
+
+I40IW USERSPACE PROVIDER (for i40iw.ko)
+M:	Tatyana Nikolova <Tatyana.E.Nikolova@intel.com>
+S:	Supported
+F:	providers/i40iw/
+
+IPATH/QIB USERSPACE PROVIDER (for ib_qib.ko)
+M:	Mike Marciniszyn <mike.marciniszyn@intel.com>
+S:	Supported
+F:	providers/ipathverbs/
+
+IWARP PORT MAPPER DAEMON (for iwarp kernel providers)
+M:	Tatyana Nikolova <Tatyana.E.Nikolova@intel.com>
+S:	Supported
+F:	iwpm/
+
+LIBIBCM USERSPACE LIBRARY FOR IB CONNECTION MANAGEMENT (/dev/infiniband/ucmX)
+M:	Sean Hefty <sean.hefty@intel.com>
+S:	Obsolete
+F:	libibcm/
+
+LIBIBUMAD USERSPACE LIBRARY FOR SMP AND GMP MAD PROCESSING (/dev/infiniband/umadX)
+M:	Hal Rosenstock <hal@dev.mellanox.co.il>
+S:	Supported
+F:	libibumad/
+
+LIBIBVERBS USERSPACE LIBRARY FOR RDMA VERBS (/dev/infiniband/uverbsX)
+M:	Doug Ledford <dledford@redhat.com>
+S:	Supported
+F:	libibverbs/
+
+LIBRDMACM USERSPACE LIBRARY FOR RDMA CONNECTION MANAGEMENT (/dev/infiniband/rdma_cm)
+M:	Sean Hefty <sean.hefty@intel.com>
+S:	Supported
+F:	librdmacm/
+
+MLX4 USERSPACE PROVIDER (for mlx4_ib.ko)
+M:	Yishai Hadas <yishaih@mellanox.com>
+S:	Supported
+F:	providers/mlx4/
+
+MLX5 USERSPACE PROVIDER (for mlx5_ib.ko)
+M:	Yishai Hadas <yishaih@mellanox.com>
+S:	Supported
+F:	providers/mlx5/
+
+MTHCA USERSPACE PROVIDER (for ib_mthca.ko)
+M:	Vladimir Sokolovsky <vlad@mellanox.com>
+S:	Supported
+F:	providers/mthca/
+
+NES USERSPACE PROVIDER (for iw_nes.ko)
+M:	Tatyana Nikolova <Tatyana.E.Nikolova@intel.com>
+S:	Supported
+F:	providers/nes/
+
+OCRDMA USERSPACE PROVIDER (for ocrdma.ko)
+M:	Devesh Sharma <Devesh.sharma@emulex.com>
+S:	Supported
+F:	providers/ocrdma/
+
+RXE SOFT ROCEE USERSPACE PROVIDER (for rdma_rxe.ko)
+M:	Moni Shoua <monis@mellanox.com>
+S:	Supported
+F:	providers/rxe/
+
+SRP DAEMON (for ib_srp.ko)
+M:	Bart Van Assche <bvanassche@acm.org>
+S:	Supported
+F:	srptools/
