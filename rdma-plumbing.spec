@@ -56,6 +56,7 @@ This is a simple example without the split sub packages to get things started.
 
 # Pass all of the rpm paths directly to GNUInstallDirs and our other defines.
 %cmake %{CMAKE_FLAGS} \
+         -DCMAKE_BUILD_TYPE=Release \
          -DCMAKE_INSTALL_BINDIR:PATH=%{_bindir} \
          -DCMAKE_INSTALL_SBINDIR:PATH=%{_sbindir} \
          -DCMAKE_INSTALL_LIBDIR:PATH=%{_libdir} \
