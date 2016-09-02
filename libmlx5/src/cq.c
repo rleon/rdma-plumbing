@@ -235,7 +235,10 @@ static inline void handle_good_req_lazy(struct mlx5_cqe64 *cqe, uint32_t *pwc_by
 		break;
 	case MLX5_OPCODE_UMR:
 		*umr_opcode = wq->wr_data[idx];
+		*pwc_byte_len = 0;
 		break;
+	default:
+		*pwc_byte_len = 0;
 	}
 }
 
