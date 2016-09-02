@@ -634,7 +634,7 @@ static inline int mlx5_parse_cqe(struct mlx5_cq *cq,
 	switch (opcode) {
 	case MLX5_CQE_REQ:
 	{
-		uint32_t uninitialized_var(wc_byte_len);
+		uint32_t wc_byte_len;
 		mqp = get_req_context(mctx, cur_rsc,
 				      (cqe_ver ? (ntohl(cqe64->srqn_uidx) & 0xffffff) : qpn),
 				      cqe_ver);
